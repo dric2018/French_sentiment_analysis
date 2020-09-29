@@ -5,13 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+  
     <title><%= htmlWebpackPlugin.options.title %></title>
   </head>
   <body>
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">
+        <img src="<%= BASE_URL %>FA.png" width="70" height="50" alt="Logo Futurafric">
+      </a>
+    </nav>
     <noscript>
       <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
+    <br>
     <!-- built files will be auto injected -->
+<!-- Footer -->
+<footer class="page-footer font-small unique-color-dark pt-4 bg-dark">
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3 text-white">© 2020 Copyright :
+    <a href="https://futurafric.com"> <span class="text-warning">FUTURAFRIC IA</span></a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
   </body>
 </html>
